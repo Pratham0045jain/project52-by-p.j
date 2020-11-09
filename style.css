@@ -1,0 +1,49 @@
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+.items:hover p{
+    opacity: 1;
+}
+.items:hover img{
+    opacity: 0.3;
+}
+ .items p{
+    /* position: absolute; */
+    /* top: 20%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    opacity: 0; 
+} 
+.camel{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 100px;
+  
+}
+.chemeleon{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.flying{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.panda{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 100px;
+}
+.pigeon{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bear{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
