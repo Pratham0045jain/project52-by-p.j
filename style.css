@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sansita+Swashed:wght@700&display=swap');
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index:10; 
+}
+.navbar{
+    background: #4923c6;
+    padding: 0 !important;
+}
+navbar-brand img{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
 .grid{
     display:flex;
     flex-wrap: wrap;
@@ -20,30 +50,64 @@
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 100px;
-  
+    border-style: solid;
+    border-color: #ff8800;
 }
 .chemeleon{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    border-style: solid;
+    border-color: #ff8800;
 }
 .flying{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    border-style: solid;
+    border-color: #ff8800;
 }
 .panda{
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 100px;
+    border-style: solid;
+    border-color: #ff8800;
 }
 .pigeon{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    border-style: solid;
+    border-color: #ff8800;
 }
 .bear{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
+     border-style: solid;
+    border-color: #ff8800;
+}
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+.top-img img{
+    border-style: solid;
+    border-color: #ff8800;
+}
+.i1{
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.i2{
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.i3{
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 30px;
 }
